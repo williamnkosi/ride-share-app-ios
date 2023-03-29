@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D299153229D4AB6300A42F5F /* ride_share_app_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */; };
+		D299153429D4AB6300A42F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299153329D4AB6300A42F5F /* ContentView.swift */; };
+		D299153629D4AB6400A42F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D299153529D4AB6400A42F5F /* Assets.xcassets */; };
+		D299153929D4AB6400A42F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D299153829D4AB6400A42F5F /* Preview Assets.xcassets */; };
+		D299154329D4AB6500A42F5F /* ride_share_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299154229D4AB6500A42F5F /* ride_share_app_iosTests.swift */; };
+		D299154D29D4AB6500A42F5F /* ride_share_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299154C29D4AB6500A42F5F /* ride_share_app_iosUITests.swift */; };
+		D299154F29D4AB6500A42F5F /* ride_share_app_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299154E29D4AB6500A42F5F /* ride_share_app_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D299153F29D4AB6500A42F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D299152629D4AB6300A42F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D299152D29D4AB6300A42F5F;
+			remoteInfo = "ride-share-app-ios";
+		};
+		D299154929D4AB6500A42F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D299152629D4AB6300A42F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D299152D29D4AB6300A42F5F;
+			remoteInfo = "ride-share-app-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D299152E29D4AB6300A42F5F /* ride-share-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ride-share-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_share_app_iosApp.swift; sourceTree = "<group>"; };
+		D299153329D4AB6300A42F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D299153529D4AB6400A42F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D299153829D4AB6400A42F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D299153E29D4AB6500A42F5F /* ride-share-app-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ride-share-app-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299154229D4AB6500A42F5F /* ride_share_app_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_share_app_iosTests.swift; sourceTree = "<group>"; };
+		D299154829D4AB6500A42F5F /* ride-share-app-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ride-share-app-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299154C29D4AB6500A42F5F /* ride_share_app_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_share_app_iosUITests.swift; sourceTree = "<group>"; };
+		D299154E29D4AB6500A42F5F /* ride_share_app_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_share_app_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D299152B29D4AB6300A42F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299153B29D4AB6500A42F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299154529D4AB6500A42F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D299152529D4AB6300A42F5F = {
+			isa = PBXGroup;
+			children = (
+				D299153029D4AB6300A42F5F /* ride-share-app-ios */,
+				D299154129D4AB6500A42F5F /* ride-share-app-iosTests */,
+				D299154B29D4AB6500A42F5F /* ride-share-app-iosUITests */,
+				D299152F29D4AB6300A42F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D299152F29D4AB6300A42F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D299152E29D4AB6300A42F5F /* ride-share-app-ios.app */,
+				D299153E29D4AB6500A42F5F /* ride-share-app-iosTests.xctest */,
+				D299154829D4AB6500A42F5F /* ride-share-app-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D299153029D4AB6300A42F5F /* ride-share-app-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */,
+				D299153329D4AB6300A42F5F /* ContentView.swift */,
+				D299153529D4AB6400A42F5F /* Assets.xcassets */,
+				D299153729D4AB6400A42F5F /* Preview Content */,
+			);
+			path = "ride-share-app-ios";
+			sourceTree = "<group>";
+		};
+		D299153729D4AB6400A42F5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D299153829D4AB6400A42F5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D299154129D4AB6500A42F5F /* ride-share-app-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D299154229D4AB6500A42F5F /* ride_share_app_iosTests.swift */,
+			);
+			path = "ride-share-app-iosTests";
+			sourceTree = "<group>";
+		};
+		D299154B29D4AB6500A42F5F /* ride-share-app-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D299154C29D4AB6500A42F5F /* ride_share_app_iosUITests.swift */,
+				D299154E29D4AB6500A42F5F /* ride_share_app_iosUITestsLaunchTests.swift */,
+			);
+			path = "ride-share-app-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D299152D29D4AB6300A42F5F /* ride-share-app-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299155229D4AB6500A42F5F /* Build configuration list for PBXNativeTarget "ride-share-app-ios" */;
+			buildPhases = (
+				D299152A29D4AB6300A42F5F /* Sources */,
+				D299152B29D4AB6300A42F5F /* Frameworks */,
+				D299152C29D4AB6300A42F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ride-share-app-ios";
+			productName = "ride-share-app-ios";
+			productReference = D299152E29D4AB6300A42F5F /* ride-share-app-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D299153D29D4AB6500A42F5F /* ride-share-app-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299155529D4AB6500A42F5F /* Build configuration list for PBXNativeTarget "ride-share-app-iosTests" */;
+			buildPhases = (
+				D299153A29D4AB6500A42F5F /* Sources */,
+				D299153B29D4AB6500A42F5F /* Frameworks */,
+				D299153C29D4AB6500A42F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D299154029D4AB6500A42F5F /* PBXTargetDependency */,
+			);
+			name = "ride-share-app-iosTests";
+			productName = "ride-share-app-iosTests";
+			productReference = D299153E29D4AB6500A42F5F /* ride-share-app-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D299154729D4AB6500A42F5F /* ride-share-app-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299155829D4AB6500A42F5F /* Build configuration list for PBXNativeTarget "ride-share-app-iosUITests" */;
+			buildPhases = (
+				D299154429D4AB6500A42F5F /* Sources */,
+				D299154529D4AB6500A42F5F /* Frameworks */,
+				D299154629D4AB6500A42F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D299154A29D4AB6500A42F5F /* PBXTargetDependency */,
+			);
+			name = "ride-share-app-iosUITests";
+			productName = "ride-share-app-iosUITests";
+			productReference = D299154829D4AB6500A42F5F /* ride-share-app-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D299152629D4AB6300A42F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D299152D29D4AB6300A42F5F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					D299153D29D4AB6500A42F5F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D299152D29D4AB6300A42F5F;
+					};
+					D299154729D4AB6500A42F5F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D299152D29D4AB6300A42F5F;
+					};
+				};
+			};
+			buildConfigurationList = D299152929D4AB6300A42F5F /* Build configuration list for PBXProject "ride-share-app-ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D299152529D4AB6300A42F5F;
+			productRefGroup = D299152F29D4AB6300A42F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D299152D29D4AB6300A42F5F /* ride-share-app-ios */,
+				D299153D29D4AB6500A42F5F /* ride-share-app-iosTests */,
+				D299154729D4AB6500A42F5F /* ride-share-app-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D299152C29D4AB6300A42F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299153929D4AB6400A42F5F /* Preview Assets.xcassets in Resources */,
+				D299153629D4AB6400A42F5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299153C29D4AB6500A42F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299154629D4AB6500A42F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D299152A29D4AB6300A42F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299153429D4AB6300A42F5F /* ContentView.swift in Sources */,
+				D299153229D4AB6300A42F5F /* ride_share_app_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299153A29D4AB6500A42F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299154329D4AB6500A42F5F /* ride_share_app_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299154429D4AB6500A42F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299154F29D4AB6500A42F5F /* ride_share_app_iosUITestsLaunchTests.swift in Sources */,
+				D299154D29D4AB6500A42F5F /* ride_share_app_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D299154029D4AB6500A42F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D299152D29D4AB6300A42F5F /* ride-share-app-ios */;
+			targetProxy = D299153F29D4AB6500A42F5F /* PBXContainerItemProxy */;
+		};
+		D299154A29D4AB6500A42F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D299152D29D4AB6300A42F5F /* ride-share-app-ios */;
+			targetProxy = D299154929D4AB6500A42F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D299155029D4AB6500A42F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D299155129D4AB6500A42F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299155329D4AB6500A42F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ride-share-app-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = UVLH876B42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ride-share-app-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299155429D4AB6500A42F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ride-share-app-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = UVLH876B42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ride-share-app-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D299155629D4AB6500A42F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ride-share-app-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ride-share-app-ios.app/ride-share-app-ios";
+			};
+			name = Debug;
+		};
+		D299155729D4AB6500A42F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ride-share-app-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ride-share-app-ios.app/ride-share-app-ios";
+			};
+			name = Release;
+		};
+		D299155929D4AB6500A42F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ride-share-app-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ride-share-app-ios";
+			};
+			name = Debug;
+		};
+		D299155A29D4AB6500A42F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ride-share-app-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ride-share-app-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D299152929D4AB6300A42F5F /* Build configuration list for PBXProject "ride-share-app-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299155029D4AB6500A42F5F /* Debug */,
+				D299155129D4AB6500A42F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299155229D4AB6500A42F5F /* Build configuration list for PBXNativeTarget "ride-share-app-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299155329D4AB6500A42F5F /* Debug */,
+				D299155429D4AB6500A42F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299155529D4AB6500A42F5F /* Build configuration list for PBXNativeTarget "ride-share-app-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299155629D4AB6500A42F5F /* Debug */,
+				D299155729D4AB6500A42F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299155829D4AB6500A42F5F /* Build configuration list for PBXNativeTarget "ride-share-app-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299155929D4AB6500A42F5F /* Debug */,
+				D299155A29D4AB6500A42F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D299152629D4AB6300A42F5F /* Project object */;
+}
