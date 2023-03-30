@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D21098AB29D53F4E00233456 /* bottom-navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21098AA29D53F4E00233456 /* bottom-navigation.swift */; };
+		D21098B329D5499E00233456 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21098B229D5499E00233456 /* HomePage.swift */; };
+		D21098B529D549AC00233456 /* ActivityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21098B429D549AC00233456 /* ActivityPage.swift */; };
+		D21098B729D549BC00233456 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21098B629D549BC00233456 /* ProfilePage.swift */; };
 		D299153229D4AB6300A42F5F /* ride_share_app_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */; };
 		D299153629D4AB6400A42F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D299153529D4AB6400A42F5F /* Assets.xcassets */; };
 		D299153929D4AB6400A42F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D299153829D4AB6400A42F5F /* Preview Assets.xcassets */; };
@@ -35,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		D21098AA29D53F4E00233456 /* bottom-navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bottom-navigation.swift"; sourceTree = "<group>"; };
+		D21098B229D5499E00233456 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		D21098B429D549AC00233456 /* ActivityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPage.swift; sourceTree = "<group>"; };
+		D21098B629D549BC00233456 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		D299152E29D4AB6300A42F5F /* ride-share-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ride-share-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_share_app_iosApp.swift; sourceTree = "<group>"; };
 		D299153529D4AB6400A42F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 		D21098A829D53F2A00233456 /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				D21098B229D5499E00233456 /* HomePage.swift */,
+				D21098B429D549AC00233456 /* ActivityPage.swift */,
+				D21098B629D549BC00233456 /* ProfilePage.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -306,7 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D299153229D4AB6300A42F5F /* ride_share_app_iosApp.swift in Sources */,
+				D21098B329D5499E00233456 /* HomePage.swift in Sources */,
+				D21098B729D549BC00233456 /* ProfilePage.swift in Sources */,
 				D21098AB29D53F4E00233456 /* bottom-navigation.swift in Sources */,
+				D21098B529D549AC00233456 /* ActivityPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

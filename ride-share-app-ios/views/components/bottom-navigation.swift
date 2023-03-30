@@ -10,18 +10,18 @@ import SwiftUI
 struct NavigationBar: View {
     var body: some View {
         TabView {
-            Text("Home")
+            HomePage()
                 .padding()
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-            Text("Activity")
+            ActivityPage()
                 .tabItem {
                     Image(systemName:"list.dash")
                     Text("Activity")
                 }
-            Text("Profile")
+            ProfilePage()
                 .tabItem {
                     Image(systemName: "person.crop.circle")
                     Text("Settings")
