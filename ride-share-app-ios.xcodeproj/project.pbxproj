@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21098AB29D53F4E00233456 /* bottom-navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21098AA29D53F4E00233456 /* bottom-navigation.swift */; };
 		D299153229D4AB6300A42F5F /* ride_share_app_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */; };
-		D299153429D4AB6300A42F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299153329D4AB6300A42F5F /* ContentView.swift */; };
 		D299153629D4AB6400A42F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D299153529D4AB6400A42F5F /* Assets.xcassets */; };
 		D299153929D4AB6400A42F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D299153829D4AB6400A42F5F /* Preview Assets.xcassets */; };
 		D299154329D4AB6500A42F5F /* ride_share_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299154229D4AB6500A42F5F /* ride_share_app_iosTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D21098AA29D53F4E00233456 /* bottom-navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bottom-navigation.swift"; sourceTree = "<group>"; };
 		D299152E29D4AB6300A42F5F /* ride-share-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ride-share-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_share_app_iosApp.swift; sourceTree = "<group>"; };
-		D299153329D4AB6300A42F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D299153529D4AB6400A42F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D299153829D4AB6400A42F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D299153E29D4AB6500A42F5F /* ride-share-app-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ride-share-app-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +71,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D21098A429D53D7C00233456 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D21098A529D53DAA00233456 /* view-models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "view-models";
+			sourceTree = "<group>";
+		};
+		D21098A629D53DBD00233456 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D21098A929D53F3300233456 /* components */,
+				D21098A829D53F2A00233456 /* pages */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D21098A729D53E4900233456 /* serivces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = serivces;
+			sourceTree = "<group>";
+		};
+		D21098A829D53F2A00233456 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		D21098A929D53F3300233456 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D21098AA29D53F4E00233456 /* bottom-navigation.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		D299152529D4AB6300A42F5F = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +139,11 @@
 		D299153029D4AB6300A42F5F /* ride-share-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				D21098A729D53E4900233456 /* serivces */,
+				D21098A629D53DBD00233456 /* views */,
+				D21098A529D53DAA00233456 /* view-models */,
 				D299153129D4AB6300A42F5F /* ride_share_app_iosApp.swift */,
-				D299153329D4AB6300A42F5F /* ContentView.swift */,
+				D21098A429D53D7C00233456 /* models */,
 				D299153529D4AB6400A42F5F /* Assets.xcassets */,
 				D299153729D4AB6400A42F5F /* Preview Content */,
 			);
@@ -257,8 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D299153429D4AB6300A42F5F /* ContentView.swift in Sources */,
 				D299153229D4AB6300A42F5F /* ride_share_app_iosApp.swift in Sources */,
+				D21098AB29D53F4E00233456 /* bottom-navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +511,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

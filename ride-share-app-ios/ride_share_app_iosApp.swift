@@ -11,7 +11,8 @@ import SwiftUI
 struct ride_share_app_iosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+     
+        NavigationBar()
         }
     }
 }
